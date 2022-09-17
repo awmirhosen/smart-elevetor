@@ -1,0 +1,45 @@
+.title{
+    color: rgb(216, 230, 215);
+}
+
+.frame{
+    height: 80vh;
+    border: 1px solid green;
+    width: 100%;
+    background:rgb(34, 99, 34);
+    opacity: 0.43;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+    padding:0 20px;
+    margin-top: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(216, 230, 215);
+    border-radius: 7px;
+    padding: 6px 0;
+    color:#ccc;
+    font-size: 13px;
+    margin-right: 2px;
+    font-size: 10px;
+}
+.buttonFlex{
+    flex: 1;
+}
+
+.button.active{
+    background: rgb(102, 114, 102);
+    border: 0;
+}
+
+

@@ -1,0 +1,183 @@
+.top{
+    color: white;
+    font-size: 13px;
+
+    .settingRdy{
+        display: block;
+        width: 20px;
+        height: 20px;
+        //background: rgba(39, 83, 47, 0.55);
+    }
+    .settingRdy1{
+        background: url('../../public/images/setting.png') no-repeat center;
+        background-size: 17px 17px;
+
+    }
+    .settingRdy2{
+        background: url('../../public/images/elevator_commands_bg.png') no-repeat center;
+        background-size: 17px 18px;
+
+    }
+    .settingRdy3{
+        background: url('../../public/images/waiting_floors_bg.png') no-repeat center;
+        background-size: 17px 20px;
+    }
+    .settingRdy4{
+        background: url('../../public/images/elevator_capacity_bg.png') no-repeat center;
+        background-size: 17px 17px;
+    }
+    .settingRdy5{
+        background: url('../../public/images/curflooricon.png') no-repeat center;
+        background-size: 17px 25px;
+    }
+
+}
+
+.rowLine{
+    display: flex;
+    justify-content: space-around;
+}
+
+.elevatorIcon{
+
+    display: block;
+    width: 72px;
+    height: 81px;
+    background: url('../../public/images/elevator_door_close.png') no-repeat center;
+    background-size: 50px 67px;
+    justify-content: center;
+    align-items: center;
+}
+
+.elevatorLine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    .elevLine{
+        height: 60px;
+        display: block;
+        border-right: 2px solid white;
+    }
+
+    .elevDote{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 26px;
+        height: 26px;
+        background: url('../../public/images/elevator_location_signal.png') no-repeat center;
+        background-size: 26px 26px;
+        margin-left: 3px;
+        position: absolute;
+        top: 20px;
+    }
+
+}
+
+
+.box{
+    overflow-y: scroll;
+}
+
+.sidexTop{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid green;
+    padding: 0 0 5px 0;
+}
+
+.sidexTop:last-child{
+    border: 0;
+}
+
+.paddingButton{
+    
+}
+
+.rowSidex{
+    flex: 1;
+}
+
+.botton{
+    flex-direction: row-reverse;
+    height: 58vh;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.bar{
+    height: 50px;
+    position: relative;
+
+.circleBar{
+ 
+    .circle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:green;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        color: white;
+        box-shadow: -1px 0px 3px -1px black inset;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+    }
+
+}
+
+.centerBar{
+    background: linear-gradient(to bottom ,rgb(87, 172, 108),green);
+    height: 100%;
+    color: white;
+    flex: 1;
+    box-shadow: 0 0px 6px -1px black;
+    margin-left: 26px;
+ }
+
+.rightBar{
+    background: rgb(25, 99, 25);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 0;
+    border-radius: 0 3px 3px 0;
+    box-shadow: 0 0px 6px -1px black;
+    padding: 0 5px;
+     span{
+        background: url('../../public/images/setting.png') no-repeat center;
+        background-size: 15px 15px;
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+}
+
+
+.lineSelect{
+    position: absolute;
+    top: -35px;
+    select{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(25, 99, 25);
+        color: blanchedalmond;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 5px 8px;
+        font-size: 15px;
+    }
+}

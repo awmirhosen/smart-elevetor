@@ -1,0 +1,3 @@
+export const SIDEX_REQUEST='SIDEX_REQUEST';
+export const SIDEX_SUCCESS='SIDEX_SUCCESS';
+export const SIDEX_FAILED='SIDEX_FAILED';

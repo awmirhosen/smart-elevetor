@@ -1,0 +1,118 @@
+.bg1{
+    width: 100%;
+    height: 100vh;
+    background: url('../../public/images/bg2.png') no-repeat fixed center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-size: 100% 100%;
+}
+.bg4{
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    top: 100px;
+    border-radius: 20px 20px 0 0;
+    border: 2px solid #2a3a3e;
+    z-index: 4;
+    opacity: 0.68;
+    filter: blur(2px);
+    background:#475457;
+}
+
+.child{
+    position: absolute;
+    top: 100px;
+    z-index: 4;
+    width: 100%;
+    padding: 0 17px;
+}
+
+.menuMobile{
+    position: absolute;
+    z-index: 3;
+    height: 10vh;
+    width: 100%;
+    bottom: 0;
+    background: #2a3a3e;
+    align-items: center;
+}
+.menuIcon1{
+ display: block;
+ width: 25px;
+ height: 25px;
+ background: url('../../public/images/sidex_sub.PNG') no-repeat center;
+ background-size: 20px 20px;   
+}
+
+.menuIcon2{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url('../../public/images/clock.PNG') no-repeat center;
+    background-size: 20px 20px;   
+}
+
+.menuIcon3{
+ display: block;
+ width: 25px;
+ height: 25px;
+ background: url('../../public/images/sidex_sub.PNG') no-repeat center;
+ background-size: 20px 20px;   
+}
+
+.menuIcon4{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url('../../public/images/information_bg.PNG') no-repeat center;
+    background-size: 20px 20px;   
+   }
+
+   .menuIcon5{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url('../../public/images/settings_bg.PNG') no-repeat center;
+    background-size: 20px 20px;   
+   }
+
+   .menuDesk{
+       display: none;
+       flex-direction: column;
+       width: 10%;
+       background:#2a3a3e;
+       align-items: center;
+       justify-content: space-around;
+       transition: 1s all ease;
+   }
+   .menuDesk.disactive{
+       display: none!important;
+       width: 0;
+   }
+
+   .openMenuButton{
+       display: none;
+       position: absolute;
+       top: 0;
+       right: 0;
+       color: white;
+       border: 1px solid white;
+       padding: 5px;
+       border-radius: 5px;
+       
+    }
+
+   @media screen and (min-width : 570px) {
+
+       .menuMobile{
+           display:none !important;
+       }
+       .menuDesk{
+           display: flex;
+       }
+       .openMenuButton{
+           display: flex;
+       }
+
+   }
